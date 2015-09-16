@@ -912,6 +912,20 @@ var Plottable;
     Plottable.version = "1.11.0";
 })(Plottable || (Plottable = {}));
 
+///<reference path="reference.ts" />
+var Plottable;
+(function (Plottable) {
+    var Retriever = (function () {
+        function Retriever() {
+        }
+        Retriever.prototype.getPlottable = function () {
+            return Plottable;
+        };
+        return Retriever;
+    })();
+    Plottable.Retriever = Retriever;
+})(Plottable || (Plottable = {}));
+
 ///<reference path="../reference.ts" />
 var Plottable;
 (function (Plottable) {

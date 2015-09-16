@@ -389,6 +389,13 @@ declare module Plottable {
 
 
 declare module Plottable {
+    class Retriever {
+        getPlottable(): typeof Plottable;
+    }
+}
+
+
+declare module Plottable {
     type DatasetCallback = (dataset: Dataset) => void;
     class Dataset {
         /**

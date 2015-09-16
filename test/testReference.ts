@@ -10,6 +10,8 @@
 
 ///<reference path="globalInitialization.ts" />
 
+///<reference path="plottableRetrievalTests.ts" />
+
 ///<reference path="drawers/drawerTests.ts" />
 ///<reference path="drawers/lineDrawerTests.ts" />
 

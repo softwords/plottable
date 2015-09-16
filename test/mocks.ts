@@ -26,4 +26,7 @@ module Mocks {
       return true;
     }
   }
+
+  export class MockRetriever extends Plottable.Retriever {
+  }
 }

@@ -15,6 +15,8 @@
 /// <reference path="core/config.ts" />
 /// <reference path="core/version.ts" />
 
+/// <reference path="retriever.ts" />
+
 /// <reference path="core/dataset.ts" />
 /// <reference path="core/renderPolicy.ts" />
 /// <reference path="core/renderController.ts" />
